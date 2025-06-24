@@ -1,0 +1,78 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HP Wiki APP"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp" />
+
+    <Button
+        android:id="@+id/btn_search_char"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Listar Personagem por ID"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintWidth_percent="0.8"
+        android:layout_marginTop="32dp" />
+
+    <Button
+        android:id="@+id/btn_list_professors"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Listar Professores"
+        app:layout_constraintTop_toBottomOf="@id/btn_search_char"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_percent="0.8"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btn_list_students"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Listar Estudantes de uma Casa"
+        app:layout_constraintTop_toBottomOf="@id/btn_list_professors"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_percent="0.8"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btn_view_spells"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Ver Feitiços"
+        app:layout_constraintTop_toBottomOf="@id/btn_list_students"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_percent="0.8"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btn_exit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Sair"
+        app:layout_constraintTop_toBottomOf="@id/btn_view_spells"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_percent="0.8"
+        android:layout_marginTop="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
