@@ -1,6 +1,6 @@
 # Harry Potter API App
 
-Aplicativo Android desenvolvido em Java utilizando Gradle, que consome a Harry Potter API para exibir informações sobre personagens, estudantes, professores e feitiços do universo de Harry Potter.
+Aplicativo Android desenvolvido em Kotlin utilizando Gradle, que consome a Harry Potter API para exibir informações sobre personagens, estudantes, professores e feitiços do universo de Harry Potter.
 
 ## Funcionalidades
 
